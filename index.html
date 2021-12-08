@@ -1,0 +1,108 @@
+<!--Louise PIETROPAOLI p1601217 Louis CELERIER p1803338 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+
+    <title>
+        Analyse des flux touristiques 
+    </title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles2.css"/>
+	<link rel="stylesheet" href="mystyle.css">
+
+	
+
+    <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
+    <!-- jquery-->
+    <script
+			  src="https://code.jquery.com/jquery-3.4.1.min.js"
+			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			  crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+
+  <header>
+    <div class="row" >
+        <div class="mx-auto" id="header-div">
+            <h1 class="titre mx-2">Analyse des flux touristiques </h1>
+     </div>
+    </div>
+    </header>
+
+
+    <!-- Navigation -->
+<!-- navbar-fixed-top -->
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item active  ">
+      <a class="nav-link" href="#" alt="Lien vers la page d'accueil">Accueil </a>
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link" href="Pise.php" alt="Lien vers la page de Pise">Pise</a>
+      </li>
+	<li class="nav-item ">
+        <a class="nav-link" href="Itsukushima.php" alt="Lien vers la page d'Istukushima">Itsukushima</a>
+      </li>
+	<li class="nav-item ">
+        <a class="nav-link" href="Contact.html" alt="Lien vers la page NousContacter">Contact</a>
+      </li>
+  </ul>
+ 
+</div>
+</nav>
+
+
+
+
+    <!-- Page Content -->
+    <div class="container">
+     <br><h1 id="TitrePrin"> Projet intégré du Master Informatique </h1><br>
+	 
+	 <p>Bienvenue sur le site réalisé par des étudiants de la formation Master Informatique de l'Université Lumière Lyon 2. Il à été créé lors d'un projet dans le but de réstituer des données 
+	 récuppérés sur un site internet ou une API.</p>
+		
+	<p>Afin d'obtenir des résultats visuels sur un site internet, le projet s'est déroulé en plusieurs tâches distinctes. Tout d'abord, nous devions choisir deux ou plusieurs site issus du 
+	patrimoine mondial de l'UNESCO afin de les comparer. Nous avons pour cela choisis la Tour de Pise et le Sanctuaire d'Itsukushima. Ensuite il nous fallait déterminer sur qu'elle plateforme 
+	nous allions recuppérer les données et aussi par quel moyens. Nous avons décidés de scraper les données sur le célèbre site TripAdvisor	grâce à la librairie "Puppeteer" de NodeJs. Les valeur séléctionnées
+	sur le site ont été choisit judicieusement afin que par la suite nous ayons de quoi les mettre sous forme de flux. Grâce à cette méthode nous avons pu récolter environ 2600 avis. Lorsque le scraping fut terminé, nous avons importer les données sur 
+	Python afin de les nettoyer, les mettre en forme et de créer d'autres variables nous aidant pour l'analyse. Après, nous avons mis les données dans une base de données de PHPMYADMIN pour faciliter la manipulation de 
+	celles-ci lors de la création du site. En effet, nous nous sommes connectés avec du code PHP à la base de données et avons réalisées quelques requêtes pour nous permettre d'obtenir des résultats. 
+	Ces résultats ont donc été utilisés pour la création de graphiques à l'aide de la librairie Chart.js de JavaScript et d'une carte à l'aide de la libraire  Am4charts de JavaScript.</p>
+	
+	<p>Le projet s'est déroulé de septembre jusqu'à début décembre. Nous avons beaucoup aimés ce projet car il nous a permit de nous entrainer à travailler en équipe en répartissant les différentes tâches. Nous avons pus découvrir les techniques de 
+	récupération de données qui sont bien utilisés dans le monde du travail comme par exemple pour le metier de Data Scientist. Cela nous a permit également de nous améliorer sur les différents langagues tels
+	que Java Script et PHP et découvrir de nouvelles librairies utiles et intéressantes.</p>
+	
+	<p> Nous remercions nos enseignants Mme Bentayeb et M Boussaid pour nous avoir guidés et donné de bons conseils tout au long de ce projet.</p><br>
+	
+    </div>
+	
+<!-- /.container -->
+
+
+<footer>
+    <p><a class="footer-a" href="https://www.univ-lyon2.fr/" target="_blank" alt="Lien vers le site de l'Université lumière Lyon 2" style="font-style:italic">Université Lumière Lyon 2 </a></p>
+  <div class="line-white"></div>
+</footer>
+
+</body>
+</html>
