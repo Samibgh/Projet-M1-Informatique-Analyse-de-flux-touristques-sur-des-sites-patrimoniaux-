@@ -23,6 +23,7 @@ DESCRIPTION :
 *********************
 
 Projet principalement en JS et Python alliant scraping et big data afin d'établir une problematique et une analyse des flux touristique sur 2 monuments donnés.
+Objectif : Créer un site internet permettant une restitution de l'analyse des flux touristiques sur des sites patrimoniaux. 
 
 *********************
 REQUIS :
