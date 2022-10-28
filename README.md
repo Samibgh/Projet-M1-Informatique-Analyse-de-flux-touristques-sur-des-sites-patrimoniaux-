@@ -26,28 +26,13 @@ Projet principalement en JS et Python alliant scraping et big data afin d'établ
 Objectif : Créer un site internet permettant une restitution de l'analyse des flux touristiques sur des sites patrimoniaux. 
 
 *********************
-REQUIS :
+REQUIS : 
 *********************
 
-Node
+Node.js
 
 Python : 3.8
 
-*********************
-INSTALLATION :
-*********************
-
-/
-
-*********************
-EXECUTION :
-*********************
-
-/
-	
-*********************
-TELECHARGEMENT :
-*********************
 
 Lien vers le git :
- https://github.com/Samibgh/projet-Int-gr-/
+ https://github.com/Samibgh/Projet-M1-Informatique-Analyse-de-flux-touristques-sur-des-sites-patrimoniaux-.git
